@@ -21,9 +21,9 @@ export default function CreateUser() {
       <Flex w="100%" my="6" maxWidth={1480} mx="auto" px="6">
         <Sidebar />
 
-        <Box flex="1" borderRadius={8} bg="gray.800" p="8">
+        <Box flex="1" rounded="md" bg="gray.800" p="8">
           <Heading size="lg" fontWeight="normal">
-            Crate User
+            Create User
           </Heading>
 
           <Divider my="6" borderColor="gray.700" />

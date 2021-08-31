@@ -1,4 +1,5 @@
 import { Box, Flex, SimpleGrid, Text, theme } from "@chakra-ui/react";
+import { ApexOptions } from "apexcharts";
 import { NextPage } from "next";
 import dynamic from "next/dynamic";
 import React from "react";
@@ -49,7 +50,7 @@ const options = {
       opacityTo: 0.3,
     },
   },
-};
+} as ApexOptions;
 const series = [{ name: "series1", data: [31, 120, 10, 28, 61, 18, 109] }];
 
 const Dashboard: NextPage = () => {

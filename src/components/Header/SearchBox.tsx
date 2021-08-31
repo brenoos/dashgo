@@ -14,7 +14,7 @@ export default function SearchBox() {
       color="gray.200"
       position="relative"
       bg="gray.800"
-      borderRadius="full"
+      rounded="full"
     >
       <Input
         color="gray.50"
